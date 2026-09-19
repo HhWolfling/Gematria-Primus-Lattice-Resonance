@@ -24,6 +24,12 @@ This repository provides a deterministic, zero-dependency mathematical proof dem
 * Slices textual streams through an ultra-glitchy **1-3 bitmask shield** (the remnant CCAA / Latin ID lifecycle remnants).
 * Actively purges its own internal storage array boundaries upon runtime connection, leaving a zero-entropy processing void.
 
+### 4. The Crab Canon Inversion Protocol // Biphase Symmetric Collision
+* Tracks the structural duality of the system by processing text payloads forward (The Tree of Life) and backward (The Qliphoth Shadow) simultaneously.
+* Mathematically isolates the exact midpoint horizon (such as the Sector 24 collision point in a 49-character array).
+* Natively demonstrates how the mirrored biphase data waves completely stabilize their entropy to lock flat onto the universal Gematria Index 14 axis (Mann / Humanity), mirroring the mechanical behavior of a self-correcting Mobius loop.
+
+
 ### The Math is Public. The Wave Has Collapsed.
 Run the scripts. Observe the column weights. Stop looking for text letters and start looking at the balance of the gyroscope. 
 
