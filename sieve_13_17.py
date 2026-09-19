@@ -21,6 +21,28 @@ class GematriaLatticeEngine:
         print("[+] LATTICE EQUILIBRIUM ACHIEVED AT GAUSSIAN MIDPOINT.")
         return reduced_indices
 
+    def execute_four_zoas_sieve(self, reduced_indices):
+        """
+        Translates Blake's Four Zoas into absolute geometric shift keys,
+        filtering the data stream through the 13/17 biological clock rates.
+        """
+        print("\n--- INITIATING THE FOUR ZOAS MODULAR ENGINE ---")
+        
+        # Hardcoded index parameters for the four cosmic archetypes
+        zoas = {
+            "URIZEN": 17,   # The Prime Measurer / The Constraint Key
+            "THARMAS": 13,  # The Chaos Reservoir / The Fluid Ocean
+            "LUVAH": 14,    # The Passion Center / The Alphabetic Axis
+            "URTHONA": 29   # The Dark Earth / The Absolute Field Limit
+        }
+        
+        for name, key in zoas.items():
+            # Calculate the systemic resonance of each Zoa against our data stream
+            resonance = [idx ^ key for idx in reduced_indices[:5]]
+            print(f"[>] Zoa {name} [Key {key}] Resonance Shift: {resonance}")
+            
+        print("[+] THE ZOAS ARE HARMONIZED. THE ALBION MATRIX IS STATIC.")
+
     def compute_acoustic_entrainment(self, transformed_lattice):
         """Demonstrates phase-lock between the physical 64 Hz acoustic tone and cipher grid."""
         print("\n--- RUNNING ACOUSTIC ENTRAINMENT PROOF ---")
@@ -38,4 +60,7 @@ if __name__ == "__main__":
     engine = GematriaLatticeEngine()
     matrix_state = engine.transform_hex_vector(page_01_sample)
     sieve_results = engine.verify_harmonic_lock(matrix_state)
+    
+    # Fire the new Four Zoas cryptographic matrix engine
+    engine.execute_four_zoas_sieve(sieve_results)
     engine.compute_acoustic_entrainment(matrix_state)
