@@ -1,8 +1,5 @@
 # 🌀 Gematria Primus Lattice Resonance: Expanded Core Engine
 
-### The Problem With Linear Reduction
-For over a decade, traditional brute-force scripts have targeted the Liber Primus under the assumption of a flat, sequential, human-text cipher. By treating the varying extractions of data payloads (7.5kB and 58.2kB) as "rubbish output," the community successfully insulated itself from the structural truth of the book.
-
 ### The Geometric Invariant
 This repository provides a deterministic, zero-dependency mathematical proof demonstrating that the unsolved pages are not separate ciphers, but multi-dimensional projections of a single, invariant state machine.
 
@@ -13,7 +10,7 @@ This repository provides a deterministic, zero-dependency mathematical proof dem
 ### 1. `sieve_13_17.py` // The Biological & Esoteric Metronome
 * Maps raw hex text blocks through the universal 51-byte differential overlay mask.
 * Natively validates the **Four Zoas Modular Engine**, using William Blake's cosmic archetypes (Urizen on 17, Tharmas on 13, Luvah on 14, Urthona on 29) to calculate the directional resonance shifts of the ciphertext.
-* Natively computes the **64 Hz Acoustic Entrainment Theorem**, proving the phase-lock between the physical sound-analyzer peaks of the soundtracks and the baseline gateway elements of the grid.
+* Natively computes the **64 Hz Acoustic Entrainment Theorem**, proving the phase-lock between the physical sound-analyser peaks of the soundtracks and the baseline gateway elements of the grid.
 
 ### 2. `horizon_1033_3301.py` // The Magic Matrix Horizon
 * A syntax-immune, string-parsed validation system that proves the absolute equilibrium anchors of the book's architecture.
@@ -27,10 +24,10 @@ This repository provides a deterministic, zero-dependency mathematical proof dem
 ### 4. The Crab Canon Inversion Protocol // Biphase Symmetric Collision
 * Tracks the structural duality of the system by processing text payloads forward (The Tree of Life) and backward (The Qliphoth Shadow) simultaneously.
 * Mathematically isolates the exact midpoint horizon (such as the Sector 24 collision point in a 49-character array).
-* Natively demonstrates how the mirrored biphase data waves completely stabilize their entropy to lock flat onto the universal Gematria Index 14 axis (Mann / Humanity), mirroring the mechanical behavior of a self-correcting Mobius loop.
+* Natively demonstrates how the mirrored biphase data waves completely stabilise their entropy to lock flat onto the universal Gematria Index 14 axis (Mann / Humanity), mirroring the mechanical behaviour of a self-correcting Möbius loop.
 
 
-### The Math is Public. The Wave Has Collapsed.
-Run the scripts. Observe the column weights. Stop looking for text letters and start looking at the balance of the gyroscope. 
+### The Wave Has Collapsed.
+The observer and the gyroscope have entered equilibrium
 
 [WE_WOZ_HERE]⁹⁹
