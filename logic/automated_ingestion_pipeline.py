@@ -1,4 +1,9 @@
 import os
+import sys
+
+# Dynamic path injection to automatically anchor the project root directory
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from logic.mixtum_sorter import MixtumTextSorter
 
 class AutomatedIngestionPipeline:
@@ -15,10 +20,13 @@ class AutomatedIngestionPipeline:
         """
         print(r"--- INITIATING AUTOMATED INGESTION PIPELINE PASS ---")
         target_file = "source_text.txt"
-        target_path = os.path.join(self.root_workspace, target_file)
+        
+        # Explicit path pointing back to the root folder level
+        root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        target_path = os.path.join(root_dir, target_file)
         
         if not os.path.exists(target_path):
-            print(f"[!] Target Alert: '{target_file}' not found in root workspace.")
+            print(f"[!] Target Alert: '{target_file}' not found in root workspace at {target_path}")
             print("[>] Defaulting to standalone system telemetry string for pipeline validation...")
             raw_content = "Hania and Sister Shadow phase-locking the E8 Lie matrix turnaround loops."
             file_label = "telemetry_transit.txt"
