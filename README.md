@@ -95,6 +95,11 @@ Foundational logic modules, self-referential strange loops, and dialogic structu
 *   `ocelli_agrippa_sieve.py` – Maps insect vision coordinates against Agrippa scales.
 *   `zen_mu_ontology.py` – Captures the invariant center point when a system talks about itself.
 
+### 📁 `/19mirror_rorrim91` (Palindromic Refraction Drawer)
+*   **`manifest_specification.md`**: Formal academic blueprint outlining the bi-directional algebraic field mechanics.
+*   **`modular_inverse_validator.py`**: High-precision validation engine checking zero-leakage integer compression and modular convergence.
+*   **`crystal_spinning_projection.py`**: Projects Layer 00 invariants out across the 12-house angular grid ($30^\circ \dots 360^\circ$).
+
 ---
 
 ## ⚙️ Baseline Execution Guide
