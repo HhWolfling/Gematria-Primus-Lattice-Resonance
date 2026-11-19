@@ -138,6 +138,15 @@ Captures sub-pixel RGB phase shifts, glyph shadow envelopes, luminance gradients
 3. **`parsers/steg_threshold_sieve.py`** & **`metronomes/cuneiform_base60_sieve.py`** — Tracks sub-pixel thresholding gates on Page 31 and models the inverted Biphase Mirror capsule across Pages 50 $\leftrightarrow$ 56 over $\mathbb{Z}_{60}$ and $\mathbb{Z}_{29}$.
 4. **`metronomes/star_matrix_sieve.py`**, **`metronomes/page_43_ephemerella_sieve.py`**, & **`swarms/page_74_loop_sieve.py`** — Counts stippled dot arrays ($13, 17, 29$) and connects the dual 16-ray stars and `SS`/`MM` doublets of Page 43 to the terminal spiral of Page 74, closing the Canon octave directly onto **Axis 14 ($\Delta = 0$)**.
 
+### 4. Genesis Cryptography, Geodetic Horizons & Esoteric Archaeology
+> *Full mathematical walkthrough: [`mythos/MYTHOS_CRYPTO_GEODETIC_MODULE.md`](mythos/MYTHOS_CRYPTO_GEODETIC_MODULE.md)*
+
+Anchors historical darknet hashes, Bitcoin genesis primitives, global GPS drop coordinates, and classical esoteric texts onto the $\mathbb{Z}_{29}$ field and $1033$ Newton Node across Floor 3 (`/mythos`):
+
+1. **`mythos/onion_newton_cross.py`**, **`mythos/coinbase_genesis_sieve.py`**, & **`mythos/vanity_address_sieve.py`** — Cross-correlates early `.onion` hidden service hashes, 2010 Bitcoin genesis block primitives, and Base58Check vanity address weights against the $1033$ horizon.
+2. **`mythos/geodetic_lattice_sieve.py`** & **`mythos/triple_coordinate_xor.py`** — Converts physical poster drop GPS coordinates across global cities into micro-degree vectors and collides triads via bitwise XOR ($\oplus$).
+3. **`mythos/holy_grail_sieve.py`**, **`mythos/hermetic_crater_sieve.py`**, & **`mythos/blake_marriage_sieve.py`** — Establishes the 12-sector precessional wheel ($25,920$ yrs) and evaluates *Corpus Hermeticum* Book IV and Blake’s *Marriage of Heaven and Hell* at the Line 65 boundary.
+4. **`mythos/agrippa_disk.py`** & **`mythos/mabinogion_comprehensive_sieve.py`** — Simulates Gibson’s $1\text{–}3$ self-erasing bitmask alongside the master mass of all 12 Welsh *Mabinogion* branches.
 
 
 ## ⚙️ Baseline Execution Guide
