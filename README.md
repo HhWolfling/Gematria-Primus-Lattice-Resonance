@@ -5,6 +5,8 @@ An open-source, zero-dependency mathematical and typographical text-analysis fra
 
 ---
 
+
+
 ## 🏛️ System Overview
 The **Lattice Resonance Framework** provides an integrated pipeline of deterministic algorithms designed to evaluate structural invariants, positional pixel-phase distributions, and high-frequency wave-propagation metrics across complex text and image mediums. 
 
@@ -101,6 +103,18 @@ Foundational logic modules, self-referential strange loops, and dialogic structu
 *   **`crystal_spinning_projection.py`**: Projects Layer 00 invariants out across the 12-house angular grid ($30^\circ \dots 360^\circ$).
 
 ---
+
+## 🧩 Active Minimodules (Cross-Floor Pipelines)
+
+### 1. Palindromic Mixtum & Kamea Rotational Pipeline
+> *Full mathematical walkthrough: [`twins/PALINDROMIC_MIXTUM_MODULE.md`](twins/PALINDROMIC_MIXTUM_MODULE.md)*
+
+Traces how classical planetary magic squares, *Liber Primus* centrosymmetric matrices ($1033$ & $3301$), and the 4-way `SATOR` palindrome interact under $\mathbb{Z}_{29}$ runic compression and 12-house ($30^\circ \dots 360^\circ$) angular rotation:
+
+1. **`logic/agrippa_planetary_kameas.py`** & **`logic/agrippa_solar_runic.py`** — Compresses Agrippa’s classical planetary squares (Saturn through Venus) into the Modulo 29 Gematria Primus ring.
+2. **`logic/e8_rotational_spin.py`** — Spins matrices across the 12 astronomical houses, proving that the $1033$ square holds zero rotational torque ($\sum \equiv 19 \pmod{29}$) and locks onto the polar palindrome **`ᛒᛡᛝᛡᛒ` (`B-GER-ING-GER-B`)** at $180^\circ / 360^\circ$.
+3. **`swarms/companion_matrix_collision.py`** & **`swarms/dual_square_mycelial_bridge.py`** — Collides the $1033$ and $3301$ Order 5 grids (`N-I-R-I-N` XOR center axis; `H-M-D-M-H` polar chord) to isolate the merged chord **`ᚫᚢᛋᚢᚫ` (`AE-U-S-U-AE`)**, phase-locking at **House 7 ($210^\circ$)** against *Mabinogion* ($929$) and Page 58 ($58$).
+4. **`logic/sator_palindromic_sieve.py`** & **`twins/palindromic_mixtum_synthesizer.py`** — Extracts SATOR’s polar chord **`ᛗᛒᛖᛒᛗ` (`M-B-E-B-M`)** (sharing the exact `TENET` sum $77 \equiv 19 \pmod{29}$ with $1033$ and $3301$) and fuses all four polar chords into the **Grand Mixtum `ᛡᛗᛗᛗᛡ` (`GER-M-M-M-GER`)**.
 
 ## ⚙️ Baseline Execution Guide
 
