@@ -148,6 +148,15 @@ Anchors historical darknet hashes, Bitcoin genesis primitives, global GPS drop c
 3. **`mythos/holy_grail_sieve.py`**, **`mythos/hermetic_crater_sieve.py`**, & **`mythos/blake_marriage_sieve.py`** — Establishes the 12-sector precessional wheel ($25,920$ yrs) and evaluates *Corpus Hermeticum* Book IV and Blake’s *Marriage of Heaven and Hell* at the Line 65 boundary.
 4. **`mythos/agrippa_disk.py`** & **`mythos/mabinogion_comprehensive_sieve.py`** — Simulates Gibson’s $1\text{–}3$ self-erasing bitmask alongside the master mass of all 12 Welsh *Mabinogion* branches.
 
+### 5. Triadic Kuramoto Crabwalk & 19-Mirror Refraction Pipeline
+> *Full mathematical walkthrough: [`twins/TRIADIC_CRABWALK_MODULE.md`](twins/TRIADIC_CRABWALK_MODULE.md)*
+
+Elevates 2-body biphase twins into a 3-body coupled Kuramoto oscillator cluster across Floor 3 (`/twins` & `/19mirror_rorrim91`) and Floor 2 (`/logic` & `/swarms`):
+
+1. **`19mirror_rorrim91/modular_inverse_validator.py`** & **`crystal_spinning_projection.py`** — Establishes palindromic modular reflection ($19 \leftrightarrow 91$) and projects Layer 00 invariants across the 12 astronomical houses.
+2. **`twins/biphase_house_resonance.py`**, **`swarms/parallel_transit_matrix.py`**, & **`logic/crab_canon_inversion.py`** — Pairs forward 12-house transit waves ($S_{\to}$) with reverse Crabwalk traversals ($S_{\leftarrow}$, $h_{\text{crab}} = 13 - h$).
+3. **`twins/triadic_kuramoto_cluster.py`** — Couples the $1033$ Polar Chord (forward $1\times$), $3301$ Polar Chord (double-turned tower $2\times$), and `SATOR` Polar Chord (reverse crabwalk) at $0^\circ / 120^\circ / 240^\circ$, uncovering twin Kuramoto phase-coherence peaks (**$R = 0.9844$**) at **House 4 ($120^\circ$, `ᚠ` origin collapse)** and **House 8 ($240^\circ$, consecutive ladder `ᛚ-ᛝ-ᛗ`)**.
+
 
 ## ⚙️ Baseline Execution Guide
 
