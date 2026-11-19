@@ -116,6 +116,19 @@ Traces how classical planetary magic squares, *Liber Primus* centrosymmetric mat
 3. **`swarms/companion_matrix_collision.py`** & **`swarms/dual_square_mycelial_bridge.py`** — Collides the $1033$ and $3301$ Order 5 grids (`N-I-R-I-N` XOR center axis; `H-M-D-M-H` polar chord) to isolate the merged chord **`ᚫᚢᛋᚢᚫ` (`AE-U-S-U-AE`)**, phase-locking at **House 7 ($210^\circ$)** against *Mabinogion* ($929$) and Page 58 ($58$).
 4. **`logic/sator_palindromic_sieve.py`** & **`twins/palindromic_mixtum_synthesizer.py`** — Extracts SATOR’s polar chord **`ᛗᛒᛖᛒᛗ` (`M-B-E-B-M`)** (sharing the exact `TENET` sum $77 \equiv 19 \pmod{29}$ with $1033$ and $3301$) and fuses all four polar chords into the **Grand Mixtum `ᛡᛗᛗᛗᛡ` (`GER-M-M-M-GER`)**.
 
+### 2. Self-Referential Logic & Ontology Loop
+> *Full mathematical walkthrough: [`logic/LOGIC_ONTOLOGY_MODULE.md`](logic/LOGIC_ONTOLOGY_MODULE.md)*
+
+Connects formal mathematical logic, Aristotelian ontology, and bidirectional mirror structures across Floor 2 (`/logic`) and Floor 3 (`/mythos`):
+
+1. **`logic/zen_mu_ontology.py`** — Formalizes the *"Who are you to wish to study here?" $\to$ "I AM"* koan and Hofstadter’s `MIU` paradox, proving that stepping outside linear string rules collapses entropy directly onto **Axis 14 (`ᛗ` / Mann)**.
+2. **`logic/godel_numbering_sieve.py`** & **`logic/crab_canon_inversion.py`** — Encodes runic sequences as positional Gödel numbers over $\mathbb{Z}_{29}$ and validates bidirectional forward/reverse (*Tree* vs. *Shadow*) symmetry.
+3. **`logic/bruno_frenzies_sieve.py`** & **`logic/ricercar_dna_sieve.py`** — Links Giordano Bruno’s *Heroic Frenzies* (Tansillo & Cicada dialogues) and Bach’s polyphonic *Ricercar a 6* to Page 73 insect-wing coordinates.
+4. **`mythos/book_code_sieve.py`** & **`mythos/mabinogion_mirror.py`** — Verifies the non-linear **Dual-Helix Source Split** of the 2012 76-line genesis tape between *The Mabinogion* (`Lines 1–65`, mass $878$) and *Encyclopædia Britannica* (`Lines 66–76`, mass $213$), converging via the $13/17$ metronome ($15,035 \equiv 13 \pmod{29}$) within 1 step of Axis 14.
+
+*(Also newly verified on Floor 2: **`logic/page15_high_integer_spin.py`**, confirming that the 4×4 Page 15 high-integer grid `1820–3258` maintains a zero-torque lock at $\sum \equiv 26 \pmod{29}$ across all 12 houses with polar chord **`ᛏᚱᛝᛉ` (`T-R-ING-X`)**.)*
+
+
 ## ⚙️ Baseline Execution Guide
 
 To ingest a new source document and evaluate its global typographical character mass and line geometry metrics through the active prime lifecycle metronomes, execute the universal text sieve module natively via terminal:
