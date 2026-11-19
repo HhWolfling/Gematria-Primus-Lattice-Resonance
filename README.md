@@ -128,6 +128,17 @@ Connects formal mathematical logic, Aristotelian ontology, and bidirectional mir
 
 *(Also newly verified on Floor 2: **`logic/page15_high_integer_spin.py`**, confirming that the 4×4 Page 15 high-integer grid `1820–3258` maintains a zero-torque lock at $\sum \equiv 26 \pmod{29}$ across all 12 houses with polar chord **`ᛏᚱᛝᛉ` (`T-R-ING-X`)**.)*
 
+### 3. Optical & Chromatic Steganography Pipeline
+> *Full mathematical walkthrough: [`parsers/OPTICAL_STEGANOGRAPHY_MODULE.md`](parsers/OPTICAL_STEGANOGRAPHY_MODULE.md)*
+
+Captures sub-pixel RGB phase shifts, glyph shadow envelopes, luminance gradients, and cross-page geometric stencils across Floor 1 (`/parsers`) and Floor 2 (`/metronomes` & `/swarms`):
+
+1. **`parsers/chromatic_channel_sieve.py`**, **`parsers/machine_sight_sieve.py`**, & **`parsers/ribbon_knotting_sieve.py`** — Isolates Red-Cyan stereoscopic offsets, individual glyph tile halos, and the Page 16 $(2,3)$ toroidal braid ($2674 \equiv 23 \pmod{29}$).
+2. **`parsers/lumen_topography_03.py`** & **`parsers/lumen_topography_04.py`** — Maps luminance gradients across the Klein-bottle vine pages, revealing the consecutive **$17 \mid 13$ biological prime runway** ($5469 \equiv 17$ and $7292 \equiv 13 \pmod{29}$) straddling Axis 14.
+3. **`parsers/steg_threshold_sieve.py`** & **`metronomes/cuneiform_base60_sieve.py`** — Tracks sub-pixel thresholding gates on Page 31 and models the inverted Biphase Mirror capsule across Pages 50 $\leftrightarrow$ 56 over $\mathbb{Z}_{60}$ and $\mathbb{Z}_{29}$.
+4. **`metronomes/star_matrix_sieve.py`**, **`metronomes/page_43_ephemerella_sieve.py`**, & **`swarms/page_74_loop_sieve.py`** — Counts stippled dot arrays ($13, 17, 29$) and connects the dual 16-ray stars and `SS`/`MM` doublets of Page 43 to the terminal spiral of Page 74, closing the Canon octave directly onto **Axis 14 ($\Delta = 0$)**.
+
+
 
 ## ⚙️ Baseline Execution Guide
 
