@@ -1,5 +1,5 @@
 # Gematria Primus Lattice Resonance Framework
-An open-source, zero-dependency mathematical and typographical text-analysis framework optimized for non-linear token-sieving, macro-structural geodetic modeling, and steganographic image-processing arrays.
+An open-source, mathematical and typographical text-analysis framework optimized for non-linear token-sieving, macro-structural geodetic modeling, and steganographic image-processing arrays.
 
 [![License: CC BY-NC-SA 4.0](https://shields.io)](https://creativecommons.org)
 
