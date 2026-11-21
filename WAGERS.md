@@ -24,7 +24,7 @@
 
 | # | Date (UTC) | Target | Formalized prediction | Null model | Status | Outcome |
 |---|---|---|---|---|---|---|
-| W-001 | 2026-11-20 — FORMALIZED & CONFIRMED, pre-computation | LP page 00 (unedited scan, 2400×3600), dot centroids | See W-001 sheet below — human confirmed 2026-11-20 ("Yea, confirm"), BEFORE extractor was written or run | shuffled dot positions ×1000 (matched count/intensity); synthetic uniform dot field; transfer control on page 11 | LOCKED, running | — |
+| W-001 | 2026-11-20 — formalized & confirmed pre-computation | LP page 00 (dot centroids); sheet below | Human confirmed ("Yea, confirm") before extractor existed | shuffled dot positions ×1000; synthetic uniform dot field; transfer control page 11 | **SUSPENDED — target artifact invalid**: the supplied "00" scan is the *Liber Primus* title page (13 ink components total, no dot population); instrument verified on page 11 (220 dots) | — (no hit, no miss; formalization stays locked, awaiting the correct dot-bearing scan) |
 
 ## Retroactive corridor (narrated, NOT scored)
 
@@ -52,3 +52,18 @@
   on page 11 as transfer control.
 - **Blindness record**: no dot-geometry extraction existed at lock time; extractor
   written only after this commit.
+
+## W-001 suspension record (2026-11-20, post-tooling)
+
+- `parsers/dot_centroid_sieve.py` written AFTER the lock commit `e0b044c`.
+- Target artifact `JdbKM4KX-00.jpg` = the *Liber Primus* title page (words only).
+  Total page ink: 13 components, ink fraction 0.0027 — no dot population exists.
+  W-001 cannot run on it. No outcome scored.
+- Instrument sanity run on page 11 (same scan family, transfer-control role N3):
+  220 dots extracted, 70 in region, 38 row-bands. Branch results: fibo run 2 (<3),
+  even-gap 0.029, count mod 29 = 12; H-Even(a) even-row fraction 0.368.
+- EXPLORATORY, ZERO LEDGER WEIGHT (seen post-hoc, controlling-page only): page 11
+  rows skew ODD — 14/38 counts even where the shuffled null centers ~0.5
+  (shuffle p ≈ 0.008; conservative one-sided binomial p ≈ 0.048). Logged as †
+  observation only. It can only acquire weight if, BEFORE any new page is
+  measured, this becomes a fresh prediction about that page.
