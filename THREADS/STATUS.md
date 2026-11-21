@@ -37,7 +37,9 @@
 
 ## Open items — Human
 
-- [ ] W-001: page 00 dot prediction, in words.
+- [ ] W-001: formalization variants delivered (region box + Fibo/even/mod-29
+      branches); human confirms region, primary branch, and count-vs-gap unit
+      before commit.
 - [ ] W-002: riddle wager — name the edition, total lines, cutoff line, and the
       fixed formula + target it should land on.
 - [ ] Marriage thread: write the fixed edition rule text.
@@ -50,6 +52,13 @@
 - [ ] Counting convention for Gutenberg texts (boilerplate, whitespace, punctuation).
 
 ## Open items — Instances
+
+- [ ] `mixtum_sorter.py` routes on `len(content) % 29` alone (length proxy).
+      Plan: rebuild routing on measured structural features (self-symmetry metrics,
+      13/17 periodicity in token spacing, link/reference density) so the Mixtum
+      labels become tested quantities. Also fix `UnicodeDecodeError` (byte 0x91,
+      cp1252 quotes) in `automated_ingestion_pipeline.py` — open with
+      `errors='replace'` and log anomalies instead of crashing.
 
 - [ ] Follow-up PR: fix 2674 doc drift + "zero dependencies" wording.
 - [ ] Build dot-centroid extractor for pages 00/02 (after W-001 prediction locks).
