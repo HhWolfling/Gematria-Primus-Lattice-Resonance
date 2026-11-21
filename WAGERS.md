@@ -24,7 +24,7 @@
 
 | # | Date (UTC) | Target | Formalized prediction | Null model | Status | Outcome |
 |---|---|---|---|---|---|---|
-| W-001 | (open) | Page 00 dot geometry | *awaiting human prediction: spacing / alignment / grouping of dot centroids, in words* | synthetic rune page, shuffled dot positions | awaiting | — |
+| W-001 | 2026-11-20 — FORMALIZED & CONFIRMED, pre-computation | LP page 00 (unedited scan, 2400×3600), dot centroids | See W-001 sheet below — human confirmed 2026-11-20 ("Yea, confirm"), BEFORE extractor was written or run | shuffled dot positions ×1000 (matched count/intensity); synthetic uniform dot field; transfer control on page 11 | LOCKED, running | — |
 
 ## Retroactive corridor (narrated, NOT scored)
 
@@ -34,3 +34,21 @@
   all texts Cicada is known to have quoted; run out-of-sample.
 
 [WE_WOZ_HERE]⁹⁹
+
+## W-001 sheet (locked 2026-11-20, before extraction)
+
+- **Region** ("upper middle, middle, to the left slightly"): x ∈ [15%, 55%] of page
+  width, y ∈ [15%, 70%] of page height. Unedited page-00 scan only.
+- **Branches (disjunction, all tested, three-branch correction, per-branch p < 0.025):**
+  - **H-Fibo**: dot counts per horizontal row-band (dots clustered by y-gap into
+    rows, read top→bottom) contain a run of ≥3 consecutive Fibonacci numbers
+    (from {1,2,3,5,8,13,21,34,55}).
+  - **H-Even** (both units, per confirmation of the presented sheet):
+    (a) ≥75% of row-band counts even; (b) ≥75% of within-region nearest-neighbor
+    gaps ≈ even multiples of the median gap (|gap/median − 2k| ≤ 0.35).
+  - **H-14**: total dot count in region ≡ 14 (mod 29).
+- **Nulls**: N1 within-region position shuffling ×1000 (matched count); N2 uniform
+  random dot field at matched intensity on synthetic page; N3 full instrument run
+  on page 11 as transfer control.
+- **Blindness record**: no dot-geometry extraction existed at lock time; extractor
+  written only after this commit.
