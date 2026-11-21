@@ -37,9 +37,10 @@
 
 ## Open items — Human
 
-- [ ] W-001: formalization variants delivered (region box + Fibo/even/mod-29
-      branches); human confirms region, primary branch, and count-vs-gap unit
-      before commit.
+- [ ] W-001 SUSPENDED (2026-11-20): supplied "00" scan is the title page — no dot
+      population. Formalization + branches stay locked. **Needed: the correct
+      dot-bearing scan (or the human re-targets the wager at, e.g., page 02/11-like
+      page).**
 - [ ] W-002: riddle wager — name the edition, total lines, cutoff line, and the
       fixed formula + target it should land on.
 - [ ] Marriage thread: write the fixed edition rule text.
@@ -60,7 +61,11 @@
       cp1252 quotes) in `automated_ingestion_pipeline.py` — open with
       `errors='replace'` and log anomalies instead of crashing.
 
-- [ ] Follow-up PR: fix 2674 doc drift + "zero dependencies" wording.
+- [x] ~~Follow-up PR: fix 2674 doc drift + "zero dependencies" wording~~ — human
+      already removed the zero-dependency claim in commit `eb56734`
+      ("small_change_different_ring"); the 2674 doc fix remains open.
+- [x] ~~Dot-centroid extractor~~ — built as `parsers/dot_centroid_sieve.py`,
+      sanity-verified on page 11 (220 dots). Suspended W-001 target issue above.
 - [ ] Build dot-centroid extractor for pages 00/02 (after W-001 prediction locks).
 - [ ] Synthetic rune-page FFT control + radial profiles for 00/01 (rings) and 03/04 (X).
 - [ ] Null-model machinery for theme table and pair frequencies.
