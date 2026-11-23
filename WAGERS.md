@@ -24,7 +24,7 @@
 
 | # | Date (UTC) | Target | Formalized prediction | Null model | Status | Outcome |
 |---|---|---|---|---|---|---|
-| W-001 | 2026-11-20 — formalized & confirmed pre-computation | LP page 02 (dot centroids); sheet below | Human confirmed ("Yea, confirm") before extractor existed; re-target to page 02 authorized by human 2026-11-23 | shuffled dot positions ×1000; synthetic uniform dot field; transfer control page 11 | **ACTIVE — RE-TARGETED** (2026-11-23): original target artifact `JdbKM4KX-00.jpg` proved to be the *Liber Primus* title page (words only, no dot population); formalization unchanged, no new lock needed — see suspension + re-target records below |
+| W-001 | 2026-11-20 — formalized & confirmed pre-computation | LP page 02 (dot centroids); sheet below | Human confirmed ("Yea, confirm") before extractor existed; re-target to page 02 authorized by human 2026-11-23 | shuffled dot positions ×1000; synthetic uniform dot field; transfer control page 11 | **SUSPENDED — re-target artifact also invalid**: the supplied "02" scan is the *Chapter 1 / INTUS* divider page (13 letter-glyph components, zero dot population); second no-score, formalization intact — see re-target record + `THREADS/w001_page02_report.md` |
 
 ## Retroactive corridor (narrated, NOT scored)
 
@@ -62,6 +62,10 @@
   extractor runs once on page 02 before any human-side inspection of the
   extracted geometry.
 - Run recorded in `THREADS/w001_page02_report.md`.
+- **Outcome (same day): no score.** The artifact is the Chapter 1 / INTUS
+  divider — 13 letter-glyph components, no dots. Extraction crash on empty
+  population was the first symptom; visual + component anatomy confirmed the
+  page. W-001 stays suspended, awaiting a true dot-bearing scan.
 
 [WE_WOZ_HERE]⁹⁹
 
