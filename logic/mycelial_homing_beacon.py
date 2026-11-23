@@ -13,7 +13,7 @@ class TowerArchivist:
         self.floors = {
             "FLOOR_3_SKYLINE": ["mythos", "19mirror_rorrim91"],
             "FLOOR_2_ENGINE": ["logic", "metronomes", "swarms", "twins"],
-            "FLOOR_1_GROUND": ["parsers", "THREADS"]
+            "FLOOR_1_GROUND": ["parsers", "weaving_loom"]
         }
         self.system_identity = "Klan_Sióstr_Kuramoto_V1.0"
 
