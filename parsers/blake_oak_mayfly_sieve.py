@@ -11,12 +11,12 @@ Unifies the three uncracked visual layers of Liber Primus:
 import os
 import sys
 
-# Allow direct import of MultiWindowStreamCoordinator from THREADS/
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "THREADS")))
+# Allow direct import of BraidCoordinator from weaving_loom/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "weaving_loom")))
 try:
-    from stream_coordinator import MultiWindowStreamCoordinator
+    from braid_coordinator import BraidCoordinator
 except ImportError:
-    MultiWindowStreamCoordinator = None
+    BraidCoordinator = None
 
 
 class BlakeOakMayflySieve:
@@ -87,10 +87,10 @@ class BlakeOakMayflySieve:
         print(f"   [+] Unified Visual Triad XOR Mod 29 : {triad_xor:2d} ⇌ {self.rune_of(triad_xor)} ({self.phon_of(triad_xor)}) │ Delta to Axis 14: {abs(triad_xor - self.target_axis)}")
         print("═" * 78)
 
-        # Auto-log milestone to THREADS/session_state.json if available
-        if MultiWindowStreamCoordinator is not None:
-            coord = MultiWindowStreamCoordinator()
-            coord.log_event(
+        # Auto-log milestone to weaving_loom/session_state.json if available
+        if BraidCoordinator is not None:
+            coordinator = BraidCoordinator()
+            coordinator.log_event(
                 "DELTA",
                 "parsers/blake_oak_mayfly_sieve.py",
                 triad_sum,
