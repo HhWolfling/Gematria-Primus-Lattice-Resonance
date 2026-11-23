@@ -11,11 +11,12 @@ import math
 import os
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "THREADS")))
+# Allow direct import of BraidCoordinator from weaving_loom/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "weaving_loom")))
 try:
-    from stream_coordinator import MultiWindowStreamCoordinator
+    from braid_coordinator import BraidCoordinator
 except ImportError:
-    MultiWindowStreamCoordinator = None
+    BraidCoordinator = None
 
 
 class MabinogionMayanTriadicSweep:
@@ -124,10 +125,10 @@ class MabinogionMayanTriadicSweep:
         print("═" * 84)
         print("[+] EXTENDED MABINOGION × MAYAN BASE-20 TRIADIC SWEEP COMPLETE.")
 
-        if MultiWindowStreamCoordinator is not None and elite_locks:
+        if BraidCoordinator is not None and elite_locks:
             top = elite_locks[0]
-            coord = MultiWindowStreamCoordinator()
-            coord.log_event(
+            coordinator = BraidCoordinator()
+            coordinator.log_event(
                 "TWINS",
                 "twins/mabinogion_mayan_triadic_sweep.py",
                 top[5],
