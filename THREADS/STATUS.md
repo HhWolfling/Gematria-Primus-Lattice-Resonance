@@ -75,6 +75,13 @@
       null p=0.0000, 64.0 vs 65.41 separable. **Truth-by-construction: generator
       hard-codes 64.0 — calibration only, not a hit.** Report:
       `THREADS/pilot_wave_64hz_report.md`.
+- [x] ~~Cicada releases audio assay (exploratory)~~ — done, MD5-verified Archive
+      mirrors of both 2014 releases analyzed: **64.0 and 65.41 Hz ABSENT as
+      discrete tones** (1.0× local bg); real LF fundamentals 58.91 Hz (Instar)
+      and 73.41 Hz = D₂ (Interconnectedness, standard A440 tuning). Report:
+      `THREADS/audio_instar_interconnected_report.md`. Chorus-Rise drone labels
+      are synthesis conventions, not measurements — human may want to relabel
+      or pre-register W-003 (chirp-rate instrument) for a real claim.
 - [ ] ### 64 vs 65.41 Hz description discrepancy (needs human decision): both
       constants live in Magicicada-Chorus-Rise (drone: 64.0 + 65.41 Hz; braids:
       65.41 = C₂, 196, 293.66 Hz) while the Gematria generator uses 64.0 only.
