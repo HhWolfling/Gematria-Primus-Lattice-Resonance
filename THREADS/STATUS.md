@@ -44,14 +44,26 @@
       **Needed: an actually dot-bearing page scan — index number ≠ page content
       in this scan family.** Page 11 is burned as transfer control + exploratory
       material; scoring it as target would be L0 by construction.
-- [ ] W-002: riddle wager — name the edition, total lines, cutoff line, and the
-      fixed formula + target it should land on.
-- [ ] Marriage thread: write the fixed edition rule text.
+- [x] ~~W-002 (page 24 bottom-half dot clusters)~~ — **RESOLVED: LOSS, 4/4
+      branches miss** (POW2 0.583<0.75 though 0/1000 shuffle reaches it —
+      near-miss with structure; MULT4 0.25; COUNT24 23≠24; 24MOD 65≡7).
+      Report: `THREADS/w002_page24_report.md`. W-003 (POW2 transfer, L2) is a
+      DRAFT awaiting human confirm + untouched dot-bearing pages.
+- [ ] W-002r: riddle wager — name the edition, total lines, cutoff line, and
+      the fixed formula + target it should land on.
 - [ ] 29-row theme table from the theme sorter (one theme per residue, committed
       before new books arrive).
 - [ ] Pages 03/04 scans for the spectral X-profile comparison.
 - [ ] Clarify RGB markers on 11exp (her annotation / enhancement artifact / in scan?).
-- [ ] The long reply (deconstruction details / interpretative corpus map).
+- [ ] Marriage thread: write the fixed edition rule text.
+- [ ] ### Phone-app audio readings vs bytes (2026-11-23): human's apps read
+      Interconnectedness 75.6 Hz "D#2 dominant 94%", Instar "61 most, 64 right
+      behind"; bytes (MD5-verified original AND human's own YT rip) show
+      64.0/65.41/75.6 all at local background — real fundamentals 58.91 Hz
+      (Instar) and 73.41 Hz = D₂ (Inter). "61/63.5" pattern = BPM halfing
+      (122/2, 127/2), not Hz. BPM claims 127/122 plausible but weakly
+      supported by spectral-flux tempo analysis. Any future music-frequency
+      claim → pre-register as W-004 candidate.
 - [ ] Naming + location of the new "project" repo (second copy of ROOM.md lives there).
 - [ ] Counting convention for Gutenberg texts (boilerplate, whitespace, punctuation).
 

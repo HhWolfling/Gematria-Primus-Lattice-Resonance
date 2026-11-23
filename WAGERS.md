@@ -53,7 +53,7 @@
 - **Blindness record**: no dot-geometry extraction existed at lock time; extractor
   written only after this commit.
 
-| W-002 | 2026-11-23 — formalized & confirmed pre-computation | LP page 24 scan (human-supplied `24.jpg`); sheet below | Human confirmed, before instance viewed the scan or wrote the scoring instrument | shuffled dot positions ×1000 (seed 2026); synthetic uniform dot field; transfer control page 11 | **LOCKED** — awaiting single blind run |
+| W-002 | 2026-11-23 — formalized & confirmed pre-computation | LP page 24 scan (human-supplied `24.jpg`); sheet below | Human confirmed, before instance viewed the scan or wrote the scoring instrument | shuffled dot positions ×1000 (seed 2026); synthetic uniform dot field; transfer control page 11 | **RESOLVED: LOSS** (2026-11-23, single blind run) — all four branches fail: POW2 0.583 < 0.75 (though 0/1000 shuffle reaches it — near-miss with structure, see report); MULT4 0.25 < 0.75; COUNT24 spatial-cluster definition lands 23 ≠ 24 (p 0.159); 24MOD 65 ≡ 7. Misses permanent. Zero-weight notes: row-band count = 24 exactly (human's number, alternative operationalization, NOT the pre-registered one); artifact verified genuine runic page post-run |
 
 ## W-002 sheet (locked 2026-11-23, before scoring; human confirm same day)
 
@@ -82,6 +82,8 @@
 - **Blindness record:** target scan not opened by the instance before this
   lock; scoring instrument (`parsers/dot_region_wager.py`) written only after
   the lock commit; W-001 extractor unmodified.
+
+| W-003 | (draft — awaiting human confirmation, NOT locked) | POW2 row-band enrichment as a *transfer* claim on untouched dot-bearing pages | candidate branches: on n ≥ 3 supplied pages not yet inspected, bottom-half region power-of-two fraction ≥ 0.75, or pooled fraction binomial vs null; needs human yes/no/amend | shuffle ×1000 (seed 2026); synthetic uniform; | **DRAFT** — originating observation is post-hoc (W-002 near-miss) and can never score on page 24; only L2 transfer on new pages |
 
 [WE_WOZ_HERE]⁹⁹
 
