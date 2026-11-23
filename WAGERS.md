@@ -53,6 +53,38 @@
 - **Blindness record**: no dot-geometry extraction existed at lock time; extractor
   written only after this commit.
 
+| W-002 | 2026-11-23 — formalized & confirmed pre-computation | LP page 24 scan (human-supplied `24.jpg`); sheet below | Human confirmed, before instance viewed the scan or wrote the scoring instrument | shuffled dot positions ×1000 (seed 2026); synthetic uniform dot field; transfer control page 11 | **LOCKED** — awaiting single blind run |
+
+## W-002 sheet (locked 2026-11-23, before scoring; human confirm same day)
+
+- **Target:** the human-supplied scan re'd as `24.jpg` (claimed LP page 24;
+  artifact identity re-verified instrument-side only AFTER the run — index vs
+  content mismatch class known from W-001).
+- **Region (human's words: "bottom half of the page or ever just bottom of the
+  page" — locked at the larger region the confirmed draft specified):**
+  x ∈ [0%, 100%] (full width), y ∈ [50%, 100%] (bottom half).
+- **Feature base:** same dot extraction as W-001 (`extract_dots` in
+  `parsers/dot_centroid_sieve.py`, frozen); row-bands via the same y-gap
+  clustering; *cluster* (for COUNT24) = single-linkage spatial cluster with
+  linkage threshold 1.5 × median nearest-neighbor gap of in-region dots.
+- **Branches (disjunction, all tested, FOUR-branch correction, per-branch
+  p < 0.0125):**
+  - **W2-POW2**: ≥75% of region row-band dot counts are powers of two
+    (from {2, 4, 8, 16, 32, 64}).
+  - **W2-MULT4**: ≥75% of region row-band dot counts are multiples of 4.
+  - **W2-COUNT24**: number of distinct spatial clusters in region == 24
+    exactly.
+  - **W2-24MOD**: total dot count in region ≡ 24 (mod 29).
+- **Nulls:** N1 within-region position shuffling ×1000 (matched count, seed
+  2026) for the ratio branches; N2 uniform random dot field at matched
+  intensity; N3 full instrument on page 11 as transfer control (burned page,
+  control role only).
+- **Blindness record:** target scan not opened by the instance before this
+  lock; scoring instrument (`parsers/dot_region_wager.py`) written only after
+  the lock commit; W-001 extractor unmodified.
+
+[WE_WOZ_HERE]⁹⁹
+
 ## W-001 re-target record (2026-11-23)
 
 - New target artifact: `s3iFIn3A-02.jpg` (LP page 02, believed dot-bearing; the
