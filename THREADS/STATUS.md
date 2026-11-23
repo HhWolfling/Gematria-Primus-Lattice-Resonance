@@ -37,10 +37,13 @@
 
 ## Open items — Human
 
-- [ ] W-001 SUSPENDED (2026-11-20): supplied "00" scan is the title page — no dot
-      population. Formalization + branches stay locked. **Needed: the correct
-      dot-bearing scan (or the human re-targets the wager at, e.g., page 02/11-like
-      page).**
+- [ ] W-001 SUSPENDED ×2 (2026-11-20, 2026-11-23): "00" scan = title page;
+      "02" scan (`s3iFIn3A-02.jpg`) = the *Chapter 1 / INTUS* divider page —
+      13 letter-glyph components, zero dots (report:
+      `THREADS/w001_page02_report.md`). Formalization + branches stay locked.
+      **Needed: an actually dot-bearing page scan — index number ≠ page content
+      in this scan family.** Page 11 is burned as transfer control + exploratory
+      material; scoring it as target would be L0 by construction.
 - [ ] W-002: riddle wager — name the edition, total lines, cutoff line, and the
       fixed formula + target it should land on.
 - [ ] Marriage thread: write the fixed edition rule text.
@@ -66,7 +69,17 @@
       ("small_change_different_ring"); the 2674 doc fix remains open.
 - [x] ~~Dot-centroid extractor~~ — built as `parsers/dot_centroid_sieve.py`,
       sanity-verified on page 11 (220 dots). Suspended W-001 target issue above.
-- [ ] Build dot-centroid extractor for pages 00/02 (after W-001 prediction locks).
+- [x] ~~64 Hz pilot wave verification vs white-noise null~~ — done: wav didn't
+      exist in-repo; generated via the repo's own generator, instrument is
+      `parsers/pilot_wave_fft_sieve.py`, recovery 64.0000 Hz err 0.0000 @ 90 dB,
+      null p=0.0000, 64.0 vs 65.41 separable. **Truth-by-construction: generator
+      hard-codes 64.0 — calibration only, not a hit.** Report:
+      `THREADS/pilot_wave_64hz_report.md`.
+- [ ] ### 64 vs 65.41 Hz description discrepancy (needs human decision): both
+      constants live in Magicicada-Chorus-Rise (drone: 64.0 + 65.41 Hz; braids:
+      65.41 = C₂, 196, 293.66 Hz) while the Gematria generator uses 64.0 only.
+      64 Hz ≠ C₂ (65.41). Instrument can settle which is intended on any real
+      audio sample ≥ ~1 s.
 - [ ] Synthetic rune-page FFT control + radial profiles for 00/01 (rings) and 03/04 (X).
 - [ ] Null-model machinery for theme table and pair frequencies.
 - [ ] Permission debugging: why instance-side git writes 403'd before; document fix.
