@@ -24,7 +24,7 @@
 
 | # | Date (UTC) | Target | Formalized prediction | Null model | Status | Outcome |
 |---|---|---|---|---|---|---|
-| W-001 | 2026-11-20 — formalized & confirmed pre-computation | LP page 00 (dot centroids); sheet below | Human confirmed ("Yea, confirm") before extractor existed | shuffled dot positions ×1000; synthetic uniform dot field; transfer control page 11 | **SUSPENDED — target artifact invalid**: the supplied "00" scan is the *Liber Primus* title page (13 ink components total, no dot population); instrument verified on page 11 (220 dots) | — (no hit, no miss; formalization stays locked, awaiting the correct dot-bearing scan) |
+| W-001 | 2026-11-20 — formalized & confirmed pre-computation | LP page 02 (dot centroids); sheet below | Human confirmed ("Yea, confirm") before extractor existed; re-target to page 02 authorized by human 2026-11-23 | shuffled dot positions ×1000; synthetic uniform dot field; transfer control page 11 | **ACTIVE — RE-TARGETED** (2026-11-23): original target artifact `JdbKM4KX-00.jpg` proved to be the *Liber Primus* title page (words only, no dot population); formalization unchanged, no new lock needed — see suspension + re-target records below |
 
 ## Retroactive corridor (narrated, NOT scored)
 
@@ -52,6 +52,18 @@
   on page 11 as transfer control.
 - **Blindness record**: no dot-geometry extraction existed at lock time; extractor
   written only after this commit.
+
+## W-001 re-target record (2026-11-23)
+
+- New target artifact: `s3iFIn3A-02.jpg` (LP page 02, believed dot-bearing; the
+  human's re-target authorization is the protocol legitimacy document — the
+  original formalization, branches, region, and nulls are unchanged, so the
+  lock commit `e0b044c` stands; no re-lock needed). Blindness preserved: the
+  extractor runs once on page 02 before any human-side inspection of the
+  extracted geometry.
+- Run recorded in `THREADS/w001_page02_report.md`.
+
+[WE_WOZ_HERE]⁹⁹
 
 ## W-001 suspension record (2026-11-20, post-tooling)
 
