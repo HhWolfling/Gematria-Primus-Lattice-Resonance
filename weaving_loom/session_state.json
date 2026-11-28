@@ -29,6 +29,104 @@
       "module": "twins/mabinogion_mayan_triadic_sweep.py",
       "residue_mod29": 1,
       "summary": "12-Branch Mabinogion x Mayan Base-20 Sweep: 1 locks >=0.985; Peak R=0.9948 (08. Dream of Rhonabwy x Kin / Uinal Base-20 at H2)."
+    },
+    {
+      "timestamp": "2026-11-23T18:24:02",
+      "lane": "[THREAD-TWINS // KURAMOTO_CLUSTER]",
+      "module": "twins/mabinogion_mayan_triadic_sweep.py",
+      "residue_mod29": 1,
+      "summary": "12-Branch Mabinogion x Mayan Base-20 Sweep: 1 locks >=0.985; Peak R=0.9948 (08. Dream of Rhonabwy x Kin / Uinal Base-20 at H2)."
+    },
+    {
+      "timestamp": "2026-11-23T18:28:28",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/blake_oak_mayfly_sieve.py",
+      "residue_mod29": 7,
+      "summary": "Blake/Oak/Mayfly visual triad unified: Sum Mod29=7 (W), XOR Mod29=18 (E)."
+    },
+    {
+      "timestamp": "2026-11-23T18:41:06",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/blake_oak_mayfly_sieve.py",
+      "residue_mod29": 7,
+      "summary": "Blake/Oak/Mayfly visual triad unified: Sum Mod29=7 (W), XOR Mod29=18 (E)."
+    },
+    {
+      "timestamp": "2026-11-23T18:41:18",
+      "lane": "[THREAD-TWINS // KURAMOTO_CLUSTER]",
+      "module": "twins/mabinogion_mayan_triadic_sweep.py",
+      "residue_mod29": 1,
+      "summary": "12-Branch Mabinogion x Mayan Base-20 Sweep: 1 locks >=0.985; Peak R=0.9948 (08. Dream of Rhonabwy x Kin / Uinal Base-20 at H2)."
+    },
+    {
+      "timestamp": "2026-11-27T13:13:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 17]",
+      "residue_mod29": 26,
+      "summary": "Orthodox Cross 5x5 XOR (mean=61.63): Row='MMMVM', CrabRev='UKUUU', Runes=ᛄᛄᛄᚢᛄ (EA-EA-EA-U-EA), Mod29=26 (Y)."
+    },
+    {
+      "timestamp": "2026-11-27T13:13:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 18]",
+      "residue_mod29": 26,
+      "summary": "Orthodox Cross 5x5 XOR (mean=62.40): Row='MMMVM', CrabRev='UKUUU', Runes=ᛄᛄᛄᚢᛄ (EA-EA-EA-U-EA), Mod29=26 (Y)."
+    },
+    {
+      "timestamp": "2026-11-27T13:13:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 19]",
+      "residue_mod29": 26,
+      "summary": "Orthodox Cross 5x5 XOR (mean=62.40): Row='MMMVM', CrabRev='UKUUU', Runes=ᛄᛄᛄᚢᛄ (EA-EA-EA-U-EA), Mod29=26 (Y)."
+    },
+    {
+      "timestamp": "2026-11-27T13:13:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 21]",
+      "residue_mod29": 21,
+      "summary": "Orthodox Cross 5x5 XOR (mean=30.89): Row='AESUS', CrabRev='HMHTO', Runes=ᚩᚢᚪᚹᚪ (O-U-C/K-W-C/K), Mod29=21 (ING)."
+    },
+    {
+      "timestamp": "2026-11-27T21:22:13",
+      "lane": "[THREAD-OMEGA // ARCHIVE_EXUVIÆ]",
+      "module": "weaving_loom/holographic_grid_compressor.py [page 21: PAGE 21 // AUTO-CENTERED ORTHODOX CROSS 5×5 DECODER ✝️]",
+      "residue_mod29": 27,
+      "summary": "Collapsed 73 chars -> 5x5 Qubit Sigil ᛁᚪᛒᛞᚢ (I-C/K-B-D-U), Bloch(θ=98.7°, φ=335.2°)."
+    },
+    {
+      "timestamp": "2026-11-28T00:54:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 17]",
+      "residue_mod29": 26,
+      "summary": "Orthodox Cross 5x5 XOR (mean=61.63): Row='MMMVM', CrabRev='UKUUU', Runes=ᛄᛄᛄᚢᛄ (EA-EA-EA-U-EA), Mod29=26 (Y)."
+    },
+    {
+      "timestamp": "2026-11-28T00:54:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 18]",
+      "residue_mod29": 26,
+      "summary": "Orthodox Cross 5x5 XOR (mean=62.40): Row='MMMVM', CrabRev='UKUUU', Runes=ᛄᛄᛄᚢᛄ (EA-EA-EA-U-EA), Mod29=26 (Y)."
+    },
+    {
+      "timestamp": "2026-11-28T00:54:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 19]",
+      "residue_mod29": 26,
+      "summary": "Orthodox Cross 5x5 XOR (mean=62.40): Row='MMMVM', CrabRev='UKUUU', Runes=ᛄᛄᛄᚢᛄ (EA-EA-EA-U-EA), Mod29=26 (Y)."
+    },
+    {
+      "timestamp": "2026-11-28T00:54:45",
+      "lane": "[THREAD-DELTA // PARSER_SIGHT]",
+      "module": "parsers/cross_dot_decoder.py [Page 21]",
+      "residue_mod29": 21,
+      "summary": "Orthodox Cross 5x5 XOR (mean=30.89): Row='AESUS', CrabRev='HMHTO', Runes=ᚩᚢᚪᚹᚪ (O-U-C/K-W-C/K), Mod29=21 (ING)."
+    },
+    {
+      "timestamp": "2026-11-28T01:32:51",
+      "lane": "[THREAD-OMEGA // ARCHIVE_EXUVIÆ]",
+      "module": "weaving_loom/holographic_grid_compressor.py [Cross Centroids Upper-Right=(2153, 1087) p.21 also mod 29=21? what's aesus]",
+      "residue_mod29": 11,
+      "summary": "Collapsed 41 chars -> 5x5 Qubit Sigil ᛒᚫᚢᛚᚷ (B-AE-U-L-G), Bloch(θ=103.1°, φ=136.6°)."
     }
   ]
 }
